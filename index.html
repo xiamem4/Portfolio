@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Maxime Croissant — UI Design, Développement Web & Audiovisuel</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranade&display=swap" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+    <meta name="description"
+        content="Portfolio de Maxime, étudiant en BUT MMI passionné par le design, le développement web et la création digitale. Découvrez ses projets, compétences et réalisations.">
+    <link rel="icon" href="./src/pdp.webp" type="image/x-icon">
+    <link rel="preload" href="./src/pdp.webp" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header role="banner">
+        <button id="lang-toggle">
+            EN
+            <img src="./src/emoji-gb.webp" alt="Drapeau Royaume-Uni" width="20" height="20" aria-label="Changer la langue">
+        </button>
+        <h1>
+            <span>PORTFOLIO</span>
+            <br>
+            Maxime Croissant
+        </h1>
+        <video autoplay muted loop playsinline preload="auto" data-lang="video_error" id="bg-video">
+            <source src="./src/workflow.mp4" type="video/mp4">
+        </video>
+    </header>
+    <main role="main">
+        <section class="presentation-section" aria-labelledby="Presentation et Softskills">
+            <div class="presentation">
+                <p data-lang="presentation_txt1"></p>
+                <p data-lang="presentation_txt2"></p>
+            </div>
+            <div class="horizontal-container">
+                <div class="softskills">
+                    <span data-lang="softskill_1"></span>
+                    <span class="dot">•</span>
+                    <span data-lang="softskill_2"></span>
+                    <span class="dot">•</span>
+                    <span data-lang="softskill_3"></span>
+                </div>
+                <img src="./src/main/Mascotte_GIF.gif" alt="GIF animé de ma mascotte : un ornythorinx en costard" />
+            </div>
+        </section>
+        <section class="hardskills-section" aria-labelledby="Hardskills">
+            <h2 data-lang="hardskills_title"></h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <ul class="hardskills-list">
+                <li>
+                    <h3 data-lang="hardskill_1"></h3>
+                    <span>Affinity Photo, Adobe Photoshop</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_1"></li>
+                        <li data-lang="task_2"></li>
+                        <li data-lang="task_3"></li>
+                        <li data-lang="task_4"></li>
+                        <li data-lang="task_5"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/Logo Affinity Photo.webp" alt="Logo Affinity Photo"></li>
+                        <li><img src="./src/Logo Photoshop.webp" alt="Logo Adobe Photoshop"></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 data-lang="hardskill_2"></h3>
+                    <span>Adobe Première Pro, DaVinci Resolve</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_6"></li>
+                        <li data-lang="task_7"></li>
+                        <li data-lang="task_8"></li>
+                        <li data-lang="task_9"></li>
+                        <li data-lang="task_10"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/Logo Première Pro.webp" alt="Logo Adobe Première Pro"></li>
+                        <li><img src="./src/Logo DaVinci.webp" alt="Logo DaVinci Resolve"></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 data-lang="hardskill_3"></h3>
+                    <span>Affinity Designer, Adobe Illustrator</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_11"></li>
+                        <li data-lang="task_12"></li>
+                        <li data-lang="task_13"></li>
+                        <li data-lang="task_14"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/Logo Illustrator.webp" alt="Logo Adobe Illustrator"></li>
+                        <li><img src="./src/Logo Affinity Designer.webp" alt="Logo Affinity Designer"></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 data-lang="hardskill_4"></h3>
+                    <span>HTML, PHP, CSS, JS</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_15"></li>
+                        <li data-lang="task_16"></li>
+                        <li data-lang="task_17"></li>
+                        <li data-lang="task_18"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/logo-html.svg" alt="Logo langage HTML"></li>
+                        <li><img src="./src/logo-css.svg" alt="Logo langage CSS"></li>
+                        <li><img src="./src/logo-js.svg" alt="Logo langage JavaScript"></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 data-lang="hardskill_5"></h3>
+                    <span>Python, Java</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_19"></li>
+                        <li data-lang="task_20"></li>
+                        <li data-lang="task_21"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/Logo Java.webp" alt="Logo langage Java"></li>
+                        <li><img src="./src/Logo Python.webp" alt="Logo langage Python"></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 data-lang="hardskill_6"></h3>
+                    <span>MySQL, phpMyAdmin</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_22"></li>
+                        <li data-lang="task_23"></li>
+                        <li data-lang="task_24"></li>
+                        <li data-lang="task_25"></li>
+                        <li data-lang="task_26"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/logo-mysql.svg" alt="Logo MySQL"></li>
+                        <li><img src="./src/logo-phpmyadmin.svg" alt="Logo phpMyAdmin"></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3 data-lang="hardskill_7"></h3>
+                    <span>Figma, Framer</span>
+                    <ul class="tasks-list">
+                        <li data-lang="task_27"></li>
+                        <li data-lang="task_28"></li>
+                        <li data-lang="task_29"></li>
+                    </ul>
+                    <ul class="softwares-list">
+                        <li><img src="./src/logo-framer.svg" alt="Logo Framer"></li>
+                        <li><img src="./src/logo-figma.svg" alt="Logo Figma"></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="projects-section" aria-labelledby="Projets">
+            <h2 data-lang="projects_title"></h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/BullShitness_mobile.webp" alt="Logo en lettre néon enflammé et dollar qui brûle"
+                            class="bullshitness">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/Distr-Eat_mobile.webp"
+                            alt="Logo sous forme de sac en papier et écriture : Sauvez votre matin avec un panier Distr-Eat !"
+                            class="distr-eat">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/LinkTree_mobile.webp" alt="Page du LinkTree de Maxime Croissant"
+                            class="linktree">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/Museum_mobile.webp" alt="Galerie de musée modélisée en 3D" class="museum">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/Maxime²_mobile.webp" alt="Page login du jeux Maxime²" class="maxime²">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/Tintin_mobile.webp" alt="BD Tintin" class="tintin">
+                    </a>
+                </li>
+                <li>
+                    <a href="./project-bullshitness.html">
+                        <img src="./src/main/GeekDays_mobile.webp" alt="Poster GeekDays" class="geekdays">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/FitFriends_mobile.webp" alt="Logo en forme d'haltères de l'application FiFriends" class="fitfriends">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/Systeme_solaire_mobile.webp" alt="Modélisation 3D du système solaire" class="systeme_solaire">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./src/main/Fontieres_du_reel_mobile.webp" alt="Vidéo de promotion d'un évènement" class="frontiere-reel">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="contact-section" aria-labelledby="Contact et réseaux sociaux">
+            <h2 data-lang="contact_title"></h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <div class="grid-section">
+                <form method="POST" aria-label="Formulaire de contact">
+                    <div class="input-1">
+                        <label for="nom" data-lang="name"></label>
+                        <input type="text" name="nom" id="nom" data-lang-placeholder="nom_placeholder" required aria-required="true">
+                    </div>
+                    <div class="input-2">
+                        <label for="prenom" data-lang="first_name"></label>
+                        <input type="text" name="prenom" id="prenom" required
+                            data-lang-placeholder="prenom_placeholder" aria-required="true">
+                    </div>
+                    <div class="input-3">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" data-lang-placeholder="email_placeholder" required aria-required="true">
+                    </div>
+                    <div class="input-4">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" cols="30"
+                            data-lang-placeholder="message_placeholder"></textarea>
+                    </div>
+                    <input type="submit" data-lang-value="submit_btn" class="btn-send" aria-label="Envoyer le message">
+                </form>
+                <div class="infos-contact">
+                    <div class="contact-groupe">
+                        <span class="label" data-lang="phone"></span>
+                        <span>06.82.19.93.06</span>
+                    </div>
+                    <div class="contact-groupe">
+                        <span class="label" data-lang="mail"></span>
+                        <span>maximecroissant5@gmail.com</span>
+                    </div>
+                    <div class="cv">
+                        <span class="label">Curriculum vitæ</span>
+                        <a href="./src/Maxime-Croissant-CV.pdf" target="_blank" role="button" aria-label="Voir le CV de Maxime en PDF">
+                            <button data-lang="cv_btn"></button>
+                        </a>
+                    </div>
+                    <div class="contact-groupe">
+                        <span class="label" data-lang="follow"></span>
+                        <ul>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="./src/LinkedIn-.svg" alt="Logo de LinkedIn en blanc">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="./src/GitHub-.svg" alt="Logo de GitHub en blanc">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="./src/Instagram-.svg" alt="Logo d'Instagram en blanc">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <img src="./src/YouTube-.svg" alt="Logo de YouTube en blanc">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <hr class="custom-bar" aria-hidden="true">
+        <p data-lang="credit"></p>
+    </footer>
+</body>
+
+</html>

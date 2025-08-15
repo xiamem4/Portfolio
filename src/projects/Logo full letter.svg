@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Logo-Full-Letter" serif:id="Logo Full Letter" transform="matrix(1,0,0,1,225.511,-2.84217e-14)">
+        <g id="Logo-bilettre" serif:id="Logo bilettre" transform="matrix(1,0,0,1,-92.093,0)">
+            <g transform="matrix(1,0,0,1,-194.53,255.87)">
+                <path d="M522.673,385.116C515.473,385.116 509.473,382.566 504.673,377.466L414.673,287.466C409.573,282.666 407.023,276.666 407.023,269.466L407.023,-99.534C407.023,-106.434 409.573,-112.434 414.673,-117.534L504.673,-207.534C509.473,-212.334 515.473,-214.734 522.673,-214.734L788.623,-214.734C796.123,-214.734 799.873,-210.984 799.873,-203.484L799.873,-106.284C799.873,-98.784 796.123,-95.034 788.623,-95.034L572.173,-95.034C567.973,-95.034 564.373,-93.534 561.373,-90.534C558.373,-87.534 556.873,-83.934 556.873,-79.734L556.873,249.216C556.873,253.416 558.373,257.016 561.373,260.016C564.373,263.016 567.973,264.516 572.173,264.516L692.811,267.12L692.811,117.674L611.773,115.069C604.273,115.069 600.523,111.319 600.523,103.819L600.523,29.856C600.523,22.356 604.273,18.606 611.773,18.606L796.273,18.606C803.773,18.606 807.523,22.356 807.523,29.856L807.523,269.466C807.523,276.666 804.973,282.666 799.873,287.466L709.873,377.466C705.073,382.566 699.073,385.116 691.873,385.116L522.673,385.116Z" style="fill:rgb(165,62,255);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(0.990268,-0.139173,0.139173,0.990268,-27.849,719.654)">
+                <g transform="matrix(900,0,0,900,947.923,385.116)">
+                </g>
+                <text x="353.023px" y="385.116px" style="font-family:'IBMPlexSans-ExtraLight', 'IBM Plex Sans';font-weight:200;font-size:900px;fill:rgb(232,186,107);">D</text>
+            </g>
+            <g transform="matrix(1,0,0,1,0,-19.3935)">
+                <path d="M395.212,540.159L428.942,540.894L445.715,660.379L412.138,660.379L395.212,540.159Z" style="fill:rgb(165,62,255);stroke:rgb(165,62,255);stroke-width:1px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-126.351,623.721)">
+            <g transform="matrix(400,0,0,400,1454.63,315.349)">
+            </g>
+            <text x="891.628px" y="315.349px" style="font-family:'Jaro-Regular', 'Jaro';font-size:400px;fill:rgb(232,186,107);">ays</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-164.651,224.651)">
+            <g transform="matrix(400,0,0,400,1520.83,315.349)">
+            </g>
+            <text x="891.628px" y="315.349px" style="font-family:'IBMPlexSans-ExtraLight', 'IBM Plex Sans';font-weight:200;font-size:400px;fill:rgb(165,62,255);">eek</text>
+        </g>
+    </g>
+</svg>
