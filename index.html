@@ -20,16 +20,21 @@
     <header role="banner">
         <button id="lang-toggle">
             EN
-            <img src="./src/emoji-gb.webp" alt="Drapeau Royaume-Uni" width="20" height="20" aria-label="Changer la langue">
+            <img src="./src/emoji-gb.webp" alt="Drapeau Royaume-Uni" width="20" height="20"
+                aria-label="Changer la langue">
         </button>
         <h1>
             <span>PORTFOLIO</span>
             <br>
             Maxime Croissant
         </h1>
-        <video autoplay muted loop playsinline preload="auto" data-lang="video_error" id="bg-video">
-            <source src="./src/workflow.mp4" type="video/mp4">
-        </video>
+        <div class="video-container">
+            <iframe
+                src="https://www.youtube.com/embed/BSKKeoJTKqI?autoplay=1&mute=1&controls=0&loop=1&playlist=BSKKeoJTKqI"
+                title="YouTube video player" frameborder="0" allow="autoplay; fullscreen" showinfo=0 modestbranding=1
+                allowfullscreen>
+            </iframe>
+        </div>
     </header>
     <main role="main">
         <section class="presentation-section" aria-labelledby="Presentation et Softskills">
@@ -160,8 +165,8 @@
             <ul>
                 <li>
                     <a href="#">
-                        <img src="./src/main/BullShitness_mobile.webp" alt="Logo en lettre néon enflammé et dollar qui brûle"
-                            class="bullshitness">
+                        <img src="./src/main/BullShitness_mobile.webp"
+                            alt="Logo en lettre néon enflammé et dollar qui brûle" class="bullshitness">
                     </a>
                 </li>
                 <li>
@@ -199,17 +204,20 @@
                 </li>
                 <li>
                     <a href="#">
-                        <img src="./src/main/FitFriends_mobile.webp" alt="Logo en forme d'haltères de l'application FiFriends" class="fitfriends">
+                        <img src="./src/main/FitFriends_mobile.webp"
+                            alt="Logo en forme d'haltères de l'application FiFriends" class="fitfriends">
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="./src/main/Systeme_solaire_mobile.webp" alt="Modélisation 3D du système solaire" class="systeme_solaire">
+                        <img src="./src/main/Systeme_solaire_mobile.webp" alt="Modélisation 3D du système solaire"
+                            class="systeme_solaire">
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="./src/main/Fontieres_du_reel_mobile.webp" alt="Vidéo de promotion d'un évènement" class="frontiere-reel">
+                        <img src="./src/main/Fontieres_du_reel_mobile.webp" alt="Vidéo de promotion d'un évènement"
+                            class="frontiere-reel">
                     </a>
                 </li>
             </ul>
@@ -221,16 +229,18 @@
                 <form method="POST" aria-label="Formulaire de contact">
                     <div class="input-1">
                         <label for="nom" data-lang="name"></label>
-                        <input type="text" name="nom" id="nom" data-lang-placeholder="nom_placeholder" required aria-required="true">
+                        <input type="text" name="nom" id="nom" data-lang-placeholder="nom_placeholder" required
+                            aria-required="true">
                     </div>
                     <div class="input-2">
                         <label for="prenom" data-lang="first_name"></label>
-                        <input type="text" name="prenom" id="prenom" required
-                            data-lang-placeholder="prenom_placeholder" aria-required="true">
+                        <input type="text" name="prenom" id="prenom" required data-lang-placeholder="prenom_placeholder"
+                            aria-required="true">
                     </div>
                     <div class="input-3">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" data-lang-placeholder="email_placeholder" required aria-required="true">
+                        <input type="email" name="email" id="email" data-lang-placeholder="email_placeholder" required
+                            aria-required="true">
                     </div>
                     <div class="input-4">
                         <label for="message">Message</label>
@@ -250,7 +260,8 @@
                     </div>
                     <div class="cv">
                         <span class="label">Curriculum vitæ</span>
-                        <a href="./src/Maxime-Croissant-CV.pdf" target="_blank" role="button" aria-label="Voir le CV de Maxime en PDF">
+                        <a href="./src/Maxime-Croissant-CV.pdf" target="_blank" role="button"
+                            aria-label="Voir le CV de Maxime en PDF">
                             <button data-lang="cv_btn"></button>
                         </a>
                     </div>

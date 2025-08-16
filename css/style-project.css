@@ -89,6 +89,7 @@ h1 {
     margin: auto;
     border-radius: 0.625rem;
     padding-bottom: 5vw;
+    max-width: 75rem;
 }
 
 .presentation {
@@ -131,6 +132,7 @@ h3 {
 
 .logiciel img {
     height: 2.5rem;
+    width: auto;
 }
 
 .links {
@@ -146,6 +148,7 @@ h3 {
 
 .links img {
     height: 1.125rem;
+    width: auto;
 }
 
 .tags {
@@ -173,7 +176,7 @@ h3 {
     padding: 0 5vw;
 }
 
-.gallerie span {
+.gallerie span, .gallerie p {
     font-size: 0.625rem;
     color: #F3F7F8;
     display: flex;
@@ -190,8 +193,11 @@ h3 {
 
 .gallerie-1 {
     display: grid;
-    justify-content: space-around;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    justify-content: center;
     padding: 7.5vw 0 3.75vw 0;
+    column-gap: 5vw;
 }
 
 .gallerie-a {
@@ -199,29 +205,45 @@ h3 {
     flex-direction: column;
     grid-column: 1;
     gap: 1.8rem;
+    max-width: 59.375rem;
 }
 
 .gallerie-a img,
 .gallerie-a span {
     width: 62.5vw;
+    max-width: 59.375rem;
+}
+
+.gallerie-1 > span {
+    grid-column: 0;
+    grid-row: 2;
+    margin: 1.8rem;;
+}
+
+.gallerie-1 > p {
+    margin: 1.8rem 0;
+    width: 16.5vw ;
 }
 
 .gallerie-b {
+    display: grid;
     grid-column: 2;
+    max-width: 15.938rem;
+    align-content: space-between;
 }
 
-.gallerie-b img,
-.gallerie-b span {
+ul img {
     width: 16.5vw;
+    max-width: 15.938rem;
 }
 
-.gallerie-b ul {
+.gallerie-1 ul {
     display: flex;
     flex-direction: column;
     list-style: none;
     padding-inline-start: 0;
     margin-block-start: 0;
-    gap: 0.625rem;
+    justify-content: space-between;
 }
 
 .gallerie-2 {
@@ -287,4 +309,79 @@ footer span {
     transform: translateY(0);
     pointer-events: auto;
     transform: rotateZ(90deg);
+}
+
+@media screen and (min-width: 768px) {
+
+    h1 {
+        font-size: 3rem;
+        padding: 3vw 0;
+    }
+
+    .return-button {
+        height: 3rem;
+        padding: 3vw 5vw;
+    }
+
+    #lang-toggle {
+        margin: 3vw 5vw;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        width: 50vw;
+        font-size: 0.938rem;
+        grid-column: 2;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    .grid-presentation {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-evenly;
+    }
+
+    .grid-logiciels-links {
+        grid-column: 1;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        width: 21.5vw;
+    }
+
+    .logiciel img {
+        height: 2.813rem;
+        width: auto;
+    }
+
+    .links img {
+        height: 1.5rem;
+        width: auto;
+    }
+
+    .links p {
+        font-size: 1rem;
+    }
+    
+    .tags {
+        grid-column: 2;
+    }
+
+    .gallerie span, footer span {
+        font-size: 1.25rem;
+    }
+
+    footer span {
+        margin-bottom: 15vw;
+    }
+
+    .return-button-end {
+        width: 10vw;
+        right: 45vw;
+    }
 }

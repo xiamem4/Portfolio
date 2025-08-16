@@ -366,3 +366,4 @@ btn.addEventListener("click", () => {
     behavior: "smooth" // animation douce
   });
 });
+
