@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Maxime Croissant — Projet GeekDays</title>
+    <link rel="stylesheet" href="./css/style-project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranade&display=swap" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+    <meta name="description"
+        content="Portfolio de Maxime, étudiant en BUT MMI passionné par le design, le développement web et la création digitale. Découvrez ses projets, compétences et réalisations.">
+    <link rel="icon" href="./src/pdp.webp" type="image/x-icon">
+    <link rel="preload" href="./src/pdp.webp" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img class="return-button" src="./src/projects/back-btn-off.svg" />
+        </a>
+        <button id="lang-toggle">
+            EN
+            <img src="./src/emoji-gb.webp" type="image/webp" alt="Drapeau Royaume-Uni" width="20" height="20"
+                aria-label="Changer la langue">
+        </button>
+        <h1>
+            GeekDays
+        </h1>
+        <img class="banner" src="./src/projects/Geekdays_laptop_banner.webp" alt="Bannière décorative de la page"/>
+    </header>
+    <main>
+        <section class="presentation" role="region"  aria-labelledby="presentation-title"> 
+            <h2 data-lang="project_geekdays_h2_title">
+            </h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <div class="grid-presentation">
+                <div class="description">
+                    <p data-lang="project_geekdays_description_p1"></p>
+                    <p data-lang="project_geekdays_description_p2"></p>
+                </div>
+                <div class="grid-logiciels-links">
+                    <h3 data-lang="project_h3_logiciels"></h3>
+                    <ul class="logiciel">
+                        <li role="listitem">
+                            <img src="./src/Logo Affinity Designer.webp" alt="Logo Affinity Designer">
+                        </li>
+                        <li role="listitem">
+                            <img src="./src/Logo Affinity Photo.webp" alt="Logo Affinity Photo">
+                        </li>
+                        <li role="listitem">
+                            <img src="./src/Logo Affinity Publisher.webp" alt="Logo Affinity Publisher">
+                        </li>
+                    </ul>
+                    <h3 data-lang="project_h3_links"></h3>
+                    <ul class="links">
+                        <li role="listitem">
+                            <img src="./src/projects/link icon.png">
+                            <p data-lang="project_geekdays_links_1"></p>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="tags">
+                    <li role="listitem">
+                        <span data-lang="project_geekdays_tags_1"></span>
+                    </li>
+                    <li role="listitem">
+                        <span data-lang="project_geekdays_tags_2"></span>
+                    </li>
+                    <li role="listitem">
+                        <span data-lang="project_geekdays_tags_3"></span>
+                    </li>
+                    <li role="listitem">
+                        <span data-lang="project_geekdays_tags_4"></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="gallerie" role="region" aria-labelledby="gallerie-title">
+            <h2 data-lang="project_h2_gallerie"></h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <div class="geekdays-gallerie-1">
+                <div class="geekdays-gallerie-a">
+                    <img src="./src/projects/Flyer front.webp" alt="Recto du flyer">
+                    <span data-lang="project_geekdays_gallerie_1"></span>
+                    <img src="./src/projects/Flyer back.webp" alt="Verso du flyer">
+                </div>
+                <span data-lang="project_geekdays_gallerie_2"></span>
+                <ul>
+                    <li role="listitem">
+                        <img src="./src/projects/sortie.webp" alt="Panneau indication sortie">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/toilettes.webp" alt="Panneau indication toilettes">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/vestiaires.webp" alt="Panneau indication vestiaires">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/billeterie.webp" alt="Panneau  indication billeterie">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/espace jeu.webp" alt="Panneau indication espace de jeu">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/fumeur.webp" alt="Panneau indication espace fumeur">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/parking.webp" alt="Panneau indication parking">
+                    </li>
+                    <li role="listitem">
+                        <img src="./src/projects/restauration.webp" alt="Panneau indication espace de restauration">
+                    </li>
+                </ul>
+                <span data-lang="project_geekdays_gallerie_3"></span>
+            </div>
+            </div>
+            <div class="geekdays-gallerie-2">
+                <div class="geekdays-gallerie-c">
+                    <img src="./src/projects/Logo full letter.svg" alt="Version du logo couleur en toutes lettres">
+                    <img src="./src/projects/Logo full letter white.svg" alt="Version du logo blanc en toutes lettres">
+                </div>
+                <div class="geekdays-gallerie-d">
+                    <img src="./src/projects/Logo Bi Letter.svg" alt="Version du logo couleur en 2 lettres">
+                    <img src="./src/projects/Logo Bi Letter White.svg" alt="Version du logo blanc en 2 lettres">
+                </div>
+                <span data-lang="project_geekdays_gallerie_4"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr class="custom-bar" aria-hidden="true">
+        <span data-lang="credit"></span>
+        <img class="return-button-end" src="./src/projects/back-btn-off.svg" />
+    </footer>
+</body>
+
+</html>

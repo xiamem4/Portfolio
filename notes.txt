@@ -1,3 +1,9 @@
-1. <title> en anglais
-2. Ajout AE logo
-3. PHP
+- Grossir le texte
+- Slider compétences
+- <title> en anglais
+- Ajout AE logo
+- PHP
+- Liens des projets
+- Remplacer la mascotte par photo pro
+- Vérifier les alt et les aria
+- Terminer la page : Maxime²

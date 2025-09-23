@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Maxime Croissant — Projet Museum</title>
+    <link rel="stylesheet" href="./css/style-project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranade&display=swap" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+    <meta name="description"
+        content="Portfolio de Maxime, étudiant en BUT MMI passionné par le design, le développement web et la création digitale. Découvrez ses projets, compétences et réalisations.">
+    <link rel="icon" href="./src/pdp.webp" type="image/x-icon">
+    <link rel="preload" href="./src/pdp.webp" as="image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img class="return-button" src="./src/projects/back-btn-off.svg" />
+        </a>
+        <button id="lang-toggle">
+            EN
+            <img src="./src/emoji-gb.webp" type="image/webp" alt="Drapeau Royaume-Uni" width="20" height="20"
+                aria-label="Changer la langue">
+        </button>
+        <h1>
+            Museum
+        </h1>
+        <img class="banner" src="./src/projects/Museum_laptop_banner.webp" alt="Bannière décorative de la page" />
+    </header>
+
+    <main>
+        <section class="presentation" role="region" aria-labelledby="presentation-title">
+            <h2 data-lang="project_museum_h2_title"></h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <div class="grid-presentation">
+                <div class="description">
+                    <p data-lang="project_museum_description_p1"></p>
+                    <p data-lang="project_museum_description_p2"></p>
+                </div>
+                <div class="grid-logiciels-links">
+                    <h3 data-lang="project_h3_logiciels"></h3>
+                    <ul class="logiciel">
+                        <li role="listitem">
+                            <img src="./src/logo-cinema-4d.svg" alt="Logo Cinema 4D">
+                        </li>
+                    </ul>
+                    <h3 data-lang="project_h3_links"></h3>
+                    <ul class="links">
+                        <li role="listitem">
+                            <img src="./src/projects/link icon.png">
+                            <p data-lang="project_museum_links_1"></p>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="tags">
+                    <li role="listitem">
+                        <span data-lang="project_museum_tags_1"></span>
+                    </li>
+                    <li role="listitem">
+                        <span data-lang="project_museum_tags_2"></span>
+                    </li>
+                    <li role="listitem">
+                        <span data-lang="project_museum_tags_3"></span>
+                    </li>
+                    <li role="listitem">
+                        <span data-lang="project_museum_tags_4"></span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="gallerie" role="region" aria-labelledby="gallerie-title">
+            <h2 data-lang="project_h2_gallerie"></h2>
+            <hr class="custom-bar" aria-hidden="true">
+            <div class="museum-gallerie-1">
+                <img src="./src/projects/interface-museum.webp">
+                <span data-lang="project_museum_gallerie_1"></span>
+                <img src=/src/projects/textures-list.webp>
+                <span data-lang="project_museum_gallerie_2"></span>
+            </div>
+            <div class="museum-gallerie-2">
+                <article class="museum-gallerie-a">
+                    <img src="./src/projects/camera view.webp">
+                    <span data-lang="project_museum_gallerie_3"></span>
+                </article>
+                <article class="museum-gallerie-b">
+                    <img src="./src/projects/3d-element-list.webp">
+                    <span data-lang="project_museum_gallerie_3"></span>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr class="custom-bar" aria-hidden="true">
+        <span data-lang="credit"></span>
+        <img class="return-button-end" src="./src/projects/back-btn-off.svg" />
+    </footer>
+</body>
+
+</html>
