@@ -15,6 +15,12 @@ if (video && "IntersectionObserver" in window) {
   video.play();
 }
 
+// Redirer le :focus
+
+document.querySelectorAll('button').forEach(btn => {
+  btn.addEventListener('touchend', () => btn.blur());
+});
+
 // Système de traduction
 let currentLang = localStorage.getItem('lang') || 'fr';
 
