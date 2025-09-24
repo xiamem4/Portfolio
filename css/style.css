@@ -90,6 +90,10 @@ h1 span {
   padding: 7.5vw;
 }
 
+strong {
+  font-weight: bolder;
+}
+
 .horizontal-container {
   display: flex;
   align-items: center;
@@ -329,9 +333,11 @@ label,
 .btn-send:active,
 .cv button:hover,
 .cv button:active {
+  outline: none;
   color: #F3F7F8;
   background-color: #7A154B;
   border-color: #7A154B;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .cv .label {
@@ -371,6 +377,11 @@ footer p {
 .projects-section img:hover,
 .projects-section img:active {
   filter: grayscale(0%);
+}
+
+.phone {
+  text-decoration: none;
+  color: #7A154B;
 }
 
 .hidden {
