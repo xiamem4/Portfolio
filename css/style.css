@@ -293,6 +293,8 @@ textarea {
   justify-self: center;
   text-align: center;
   padding: 2.5vw;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 input,
