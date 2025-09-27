@@ -333,7 +333,7 @@ label,
 }
 
 .cv button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
   appearance: none;
   border-radius: 0.625rem;
   box-shadow: 1vw 1vw 5vw #7A154B;
@@ -358,9 +358,12 @@ label,
   box-shadow: none;
 }
 
-
 .cv .label {
   margin-right: 5vw;
+}
+
+.cv a {
+  color :#181B1E;
 }
 
 .contact-groupe ul {
